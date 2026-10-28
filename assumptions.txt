@@ -1,0 +1,10 @@
+Assumptions
+• All monetary values are stored in cents to avoid rounding issues, with a maximum of two
+decimal places.
+• New accounts start with a zero balance and receive a unique ID.
+• Debits are allowed only when sufficient funds are available.
+• Transfers must succeed completely or have no effect, ensuring balances remain consistent.
+• Transactions cannot be modified once recorded.
+• Pagination is supported, with a default limit of 10 and a maximum of 100 records per request.
+• SQLite is used as the database, with transactions to maintain data consistency.
+• Authentication is outside the scope of this assignment.
