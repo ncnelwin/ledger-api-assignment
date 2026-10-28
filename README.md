@@ -8,7 +8,6 @@ Flask REST API with SQLite
 python -m venv .venv
 # Linux/macOS:
 source .venv/bin/activate
-# Windows: .venv\\Scripts\\Activate.ps1
 pip install -r requirements.txt
 python app.py
 ```
